@@ -1,0 +1,46 @@
+:root{
+    --selmon:#fc9d69;
+    --black: #000;
+    --white: #d8d8d8;
+    --cyan: #97c7c9;
+    --dsalmon : rgb(80, 41, 37);
+    --dcyan:rgb(27, 56, 56);
+}
+
+body{
+    transition: background-color ease-out .7s;
+}
+
+.vdodiv{
+    clip-path:circle(var(--clip) at 50% 50%);
+}
+
+
+*::selection{
+    background-color: var(--selmon);
+    
+}
+body[theme="black"]{
+    background-color: var(--black);
+}
+body[theme="black"]{
+    color: var(--white);
+}
+body[theme="cyan"]{
+    background-color: var(--cyan);
+}
+body[theme="cyan"] .section{
+    color: var(--dcyan);
+}
+body[theme="salmon"]{
+    background-color: var(--selmon);
+}
+body[theme="salmon"] .section{
+    color: var(--dsalmon);
+}
+body[theme="white"]{
+    background-color:var(--white);
+}
+body[theme="white"] .section{
+    color: var(--black);
+}

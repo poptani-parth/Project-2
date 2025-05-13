@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Project 2</title>
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+     <link rel="stylesheet" href="style.css">
+</head>
+
+<body theme="black">
+     <div class="main w-full relative">
+          <div class="nav fixed section w-full  flex justify-between items-center px-10">
+               <div class="logo w-fit overflow-hidden">
+                    <h1 class="text-[3rem] font-semibold font-['Papyrus']">Significo</h1>
+               </div>
+               <div class="links flex gap-7 items-center">
+                    <a href="#" class="text-[1rem] font-['Maiandra_GD']">Solution</a>
+                    <a href="#" class="text-[1rem] font-['Maiandra_GD']">About</a>
+                    <a href="#" class="text-[1rem] font-['Maiandra_GD']">Insight</a>
+                    <a href="#" class="text-[1rem] font-['Maiandra_GD']">Team</a>
+                    <a href="#" class="text-[1rem] font-['Maiandra_GD']">Careers</a>
+                    <a href="#" class="text-[1rem] font-['Maiandra_GD'] py-2 px-3 rounded-[5px] bg-orange-500">Contact
+                         Us</a>
+               </div>
+          </div>
+          <!-- main body part -->
+          <div data-color="black" class="home section w-full h-[200vh] relative">
+               <div class="w-full sticky top-0 left-0">
+                    <div class="btmtext absolute z-[4] bottom-[7%] left-[5%] w-50">
+                         <h1>We build big ideas. Software. Apps. Tools. For real people. Real lives.</h1>
+                    </div>
+                    <div style="--clip: 100%"
+                         class=" vdodiv w-full h-screen z-[3] absolute top-0 left-0 bg-black overflow-hidden">
+                         <video autoplay loop muted
+                              class="absolute z-[3] w-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
+                              src="./video.mp4"></video>
+                    </div>
+                    <div class="marqueescontainer w-full h-screen relative overflow-hidden">
+                         <div class="heading absolute top-[7%] left-1/2 -translate-x-1/2 w-60 text-center">
+                              <h1 class="text-xl font-regular">crafting a new paradigm of healthcare, one that is</h1>
+                         </div>
+                         <div
+                              class="slideMarquee absolute top-1/2 left-1/2 scale-[1] -translate-x-1/2 -translate-y-1/2 w-[90%] ">
+                              <div
+                                   class="row lft -translate-x-1/6 w-full py-1 flex items-center gap-10 whitespace-nowrap">
+                                   <div class="elem flex items-center gap-5">
+                                        <h1 class="font-semibold font-['Maiandra_GD'] text-6xl">empathetic</h1>
+                                        <div class="imgdiv w-[3rem] h-[3rem] rounded-full">
+                                             <img class="w-full h-full object-cover"
+                                                  src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483189_Ellipse%20845-1.webp"
+                                                  alt="">
+                                        </div>
+                                   </div>
+                                   <div class="elem flex items-center gap-5">
+                                        <h1 class="font-semibold font-['Maiandra_GD'] text-6xl">useful</h1>
+                                        <div class="imgdiv w-[3rem] h-[3rem] rounded-full">
+                                             <img class="w-full h-full object-cover"
+                                                  src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483184_Ellipse%20845.webp"
+                                                  alt="">
+                                        </div>
+                                   </div>
+                                   <div class="elem flex items-center gap-5">
+                                        <h1 class="font-semibold font-['Maiandra_GD'] text-6xl">intuitive</h1>
+                                        <div class="imgdiv w-[3rem] h-[3rem] rounded-full">
+                                             <img class="w-full h-full object-cover"
+                                                  src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483188_Ellipse%20845-2.webp"
+                                                  alt="">
+                                        </div>
+                                   </div>
+                                   <div class="elem flex items-center gap-5">
+                                        <h1 class="font-semibold font-['Maiandra_GD'] text-6xl">empathetic</h1>
+                                        <div class="imgdiv w-[3rem] h-[3rem] rounded-full">
+                                             <img class="w-full h-full object-cover"
+                                                  src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483185_Ellipse%20844.webp"
+                                                  alt="">
+                                        </div>
+                                   </div>
+                                   <div class="elem flex items-center gap-5">
+                                        <h1 class="font-semibold font-['Maiandra_GD'] text-6xl">useful</h1>
+                                        <div class="imgdiv w-[3rem] h-[3rem] rounded-full overflow-hidden">
+                                             <img class="w-full h-full object-cover"
+                                                  src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483189_Ellipse%20845-1.webp"
+                                                  alt="">
+                                        </div>
+                                   </div>
+                                   <div class="elem flex items-center gap-5">
+                                        <h1 class="font-semibold font-['Maiandra_GD'] text-6xl">intuitive</h1>
+                                   </div>
+                              </div>
+                              <div
+                                   class="row rgt -translate-x-2/8 w-full py-1 flex items-center gap-10 whitespace-nowrap">
+                                   <div class="elem flex items-center gap-5">
+                                        <h1 class="font-semibold font-['Maiandra_GD'] text-6xl">empathetic</h1>
+                                        <div class="imgdiv w-[3rem] h-[3rem] rounded-full">
+                                             <img class="w-full h-full object-cover"
+                                                  src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483189_Ellipse%20845-1.webp"
+                                                  alt="">
+                                        </div>
+                                   </div>
+                                   <div class="elem flex items-center gap-5">
+                                        <h1 class="font-semibold font-['Maiandra_GD'] text-6xl">useful</h1>
+                                        <div class="imgdiv w-[3rem] h-[3rem] rounded-full">
+                                             <img class="w-full h-full object-cover"
+                                                  src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483184_Ellipse%20845.webp"
+                                                  alt="">
+                                        </div>
+                                   </div>
+                                   <div class="elem flex items-center gap-5">
+                                        <h1 class="font-semibold font-['Maiandra_GD'] text-6xl">intuitive</h1>
+                                        <div class="imgdiv w-[3rem] h-[3rem] rounded-full">
+                                             <img class="w-full h-full object-cover"
+                                                  src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483188_Ellipse%20845-2.webp"
+                                                  alt="">
+                                        </div>
+                                   </div>
+                                   <div class="elem flex items-center gap-5">
+                                        <h1 class="font-semibold font-['Maiandra_GD'] text-6xl">empathetic</h1>
+                                        <div class="imgdiv w-[3rem] h-[3rem] rounded-full">
+                                             <img class="w-full h-full object-cover"
+                                                  src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483185_Ellipse%20844.webp"
+                                                  alt="">
+                                        </div>
+                                   </div>
+                                   <div class="elem flex items-center gap-5">
+                                        <h1 class="font-semibold font-['Maiandra_GD'] text-6xl">useful</h1>
+                                        <div class="imgdiv w-[3rem] h-[3rem] rounded-full overflow-hidden">
+                                             <img class="w-full h-full object-cover"
+                                                  src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483189_Ellipse%20845-1.webp"
+                                                  alt="">
+                                        </div>
+                                   </div>
+                                   <div class="elem flex items-center gap-5">
+                                        <h1 class="font-semibold font-['Maiandra_GD'] text-6xl">intuitive</h1>
+                                   </div>
+                              </div>
+                              <div
+                                   class="row lft -translate-x-2/8 w-full py-1 flex items-center gap-10 whitespace-nowrap">
+                                   <div class="elem flex items-center gap-5">
+                                        <h1 class="font-semibold font-['Maiandra_GD'] text-6xl">empathetic</h1>
+                                        <div class="imgdiv w-[3rem] h-[3rem] rounded-full">
+                                             <img class="w-full h-full object-cover"
+                                                  src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483189_Ellipse%20845-1.webp"
+                                                  alt="">
+                                        </div>
+                                   </div>
+                                   <div class="elem flex items-center gap-5">
+                                        <h1 class="font-semibold font-['Maiandra_GD'] text-6xl">useful</h1>
+                                        <div class="imgdiv w-[3rem] h-[3rem] rounded-full">
+                                             <img class="w-full h-full object-cover"
+                                                  src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483184_Ellipse%20845.webp"
+                                                  alt="">
+                                        </div>
+                                   </div>
+                                   <div class="elem flex items-center gap-5">
+                                        <h1 class="font-semibold font-['Maiandra_GD'] text-6xl">intuitive</h1>
+                                        <div class="imgdiv w-[3rem] h-[3rem] rounded-full">
+                                             <img class="w-full h-full object-cover"
+                                                  src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483188_Ellipse%20845-2.webp"
+                                                  alt="">
+                                        </div>
+                                   </div>
+                                   <div class="elem flex items-center gap-5">
+                                        <h1 class="font-semibold font-['Maiandra_GD'] text-6xl">empathetic</h1>
+                                        <div class="imgdiv w-[3rem] h-[3rem] rounded-full">
+                                             <img class="w-full h-full object-cover"
+                                                  src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483185_Ellipse%20844.webp"
+                                                  alt="">
+                                        </div>
+                                   </div>
+                                   <div class="elem flex items-center gap-5">
+                                        <h1 class="font-semibold font-['Maiandra_GD'] text-6xl">useful</h1>
+                                        <div class="imgdiv w-[3rem] h-[3rem] rounded-full overflow-hidden">
+                                             <img class="w-full h-full object-cover"
+                                                  src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483189_Ellipse%20845-1.webp"
+                                                  alt="">
+                                        </div>
+                                   </div>
+                                   <div class="elem flex items-center gap-5">
+                                        <h1 class="font-semibold font-['Maiandra_GD'] text-6xl">intuitive</h1>
+                                   </div>
+                              </div>
+                              <div
+                                   class="row rgt -translate-x-2/6 w-full py-1 flex items-center gap-10 whitespace-nowrap">
+                                   <div class="elem flex items-center gap-5">
+                                        <h1 class="font-semibold font-['Maiandra_GD'] text-6xl">empathetic</h1>
+                                        <div class="imgdiv w-[3rem] h-[3rem] rounded-full">
+                                             <img class="w-full h-full object-cover"
+                                                  src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483189_Ellipse%20845-1.webp"
+                                                  alt="">
+                                        </div>
+                                   </div>
+                                   <div class="elem flex items-center gap-5">
+                                        <h1 class="font-semibold font-['Maiandra_GD'] text-6xl">useful</h1>
+                                        <div class="imgdiv w-[3rem] h-[3rem] rounded-full">
+                                             <img class="w-full h-full object-cover"
+                                                  src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483184_Ellipse%20845.webp"
+                                                  alt="">
+                                        </div>
+                                   </div>
+                                   <div class="elem flex items-center gap-5">
+                                        <h1 class="font-semibold font-['Maiandra_GD'] text-6xl">intuitive</h1>
+                                        <div class="imgdiv w-[3rem] h-[3rem] rounded-full">
+                                             <img class="w-full h-full object-cover"
+                                                  src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483188_Ellipse%20845-2.webp"
+                                                  alt="">
+                                        </div>
+                                   </div>
+                                   <div class="elem flex items-center gap-5">
+                                        <h1 class="font-semibold font-['Maiandra_GD'] text-6xl">empathetic</h1>
+                                        <div class="imgdiv w-[3rem] h-[3rem] rounded-full">
+                                             <img class="w-full h-full object-cover"
+                                                  src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483185_Ellipse%20844.webp"
+                                                  alt="">
+                                        </div>
+                                   </div>
+                                   <div class="elem flex items-center gap-5">
+                                        <h1 class="font-semibold font-['Maiandra_GD'] text-6xl">useful</h1>
+                                        <div class="imgdiv w-[3rem] h-[3rem] rounded-full overflow-hidden">
+                                             <img class="w-full h-full object-cover"
+                                                  src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483189_Ellipse%20845-1.webp"
+                                                  alt="">
+                                        </div>
+                                   </div>
+                                   <div class="elem flex items-center gap-5">
+                                        <h1 class="font-semibold font-['Maiandra_GD'] text-6xl">intuitive</h1>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+          </div>
+
+          <div data-color="cyan"
+               class="craft section w-full px-10  py-10 gap-20 flex justify-between items-start relative">
+               <div class="ltext w-[45%] sticky top-0 left-0">
+                    <p class="text-xl font-regular leading-[2.5rem]">Significo is a custom health software
+                         developer
+                         founded on the belief that technology can transform healthcare to put people first. We put
+                         humanity back at the center of healthcare with technology that simplifies complexity,
+                         accelerates capacity, and improves outcomes.</p>
+                    <h1 class="text-[4rem] leading-[5.3rem] font-lighter mt-10 font-['Footlight_MT'] mb-10">
+                         Human-Centric Health Software</h1>
+                    <div class="px-10 py-5 border-[1px] border-[--dcyan] w-fit">
+                         <div class="masker overflow-hidden">
+                              <span class="inline-block">Our Solution</span>
+                         </div>
+                    </div>
+               </div>
+               <div class="cards w-[50%] flex flex-col gap-4 mt-[100vh] mb-[10vh]">
+                    <div class="card w-[80%] px-7 py-6 border-1 flex justify-between">
+                         <div class="info w-[70%]">
+                              <h1 class="text-2xl font-bold font-['Satoshi_Variable'] py-4"> Driven by Purpose</h1>
+                              <h4 class="text-[14px] font-semibold ">We believe technology can dramatically improve the
+                                   experience of managing health, and — when crafted with empathy, intention, and
+                                   expertise — impact lives at scale.</h4>
+                         </div>
+                         <div class="image w-[5rem] h-[5rem] overflow-hidden rounded-full">
+                              <img class="w-full h-full object-cover"
+                                   src="https://www.svgrepo.com/show/343072/diamond.svg" alt="">
+                         </div>
+                    </div>
+                    <div class="card w-[80%] px-7 py-6 border-1 flex justify-between">
+                         <div class="info w-[70%]">
+                              <h1 class="text-2xl font-bold font-['Satoshi_Variable'] py-4"> Custom Products</h1>
+                              <h4 class="text-[14px] font-semibold ">We build mobile and web-based apps, platforms, and
+                                   infrastructure fitted to your needs. We have an open solutions framework, so we work
+                                   to fit your business, not the other way around.</h4>
+                         </div>
+                         <div class="image w-[5rem] h-[5rem] overflow-hidden rounded-full">
+                              <img class="w-full h-full object-cover"
+                                   src="https://www.svgrepo.com/show/365438/git-diff-thin.svg" alt="">
+                         </div>
+                    </div>
+                    <div class="card w-[80%] px-7 py-6 border-1 flex justify-between">
+                         <div class="info w-[60%]">
+                              <h1 class="text-2xl font-bold font-['Satoshi_Variable'] py-4">Partnerships</h1>
+                              <h4 class="text-[14px] font-semibold ">We work with payers, providers, and pharma to help
+                                   internal teams through ground-up builds, product optimizations, and streamlining
+                                   data/analytics.</h4>
+                         </div>
+                         <div class="image w-[5rem] h-[5rem] overflow-hidden rounded-full">
+                              <img class="w-full h-full object-cover"
+                                   src="https://www.svgrepo.com/show/365460/handshake-thin.svg" alt="">
+                         </div>
+                    </div>
+                    <div class="card w-[80%] px-7 py-6 border-1 flex justify-between">
+                         <div class="info w-[60%]">
+                              <h1 class="text-[1.4rem] font-bold font-['Satoshi_Variable'] py-4">Security & Compliance
+                              </h1>
+                              <h4 class="text-[14px] font-semibold ">Not just technology experts. Health experts. We are
+                                   able to navigate both stringent regulatory environments and the complexities of
+                                   technology and data.</h4>
+                         </div>
+                         <div class="image w-[5rem] h-[5rem] overflow-hidden rounded-full">
+                              <img class="w-full h-full object-cover"
+                                   src="https://www.svgrepo.com/show/365710/shield-check-thin.svg" alt="">
+                         </div>
+                    </div>
+               </div>
+          </div>
+
+          <div data-color="salmon" class="real section w-full">
+               <div class="cont h-[400vh] relative">
+                    <div class="slides overflow-hidden w-full h-[100vh] gap-10 flex sticky top-0 left-0">
+                         <div class="slide w-full h-screen flex-shrink-0 flex items-center justify-center relative">
+                              <div class="text font-['Footlight_MT']">
+                                   <h1 class="text-8xl">Real talk,</h1>
+                                   <h1 class="text-8xl">Real impact</h1>
+                              </div>
+                              <div
+                                   class="image rounded-full overflow-hidden absolute top-1/2 right-0 -translate-y-1/2 translate-x-1/2 w-[17rem] h-[17rem]">
+                                   <img class="object-cover h-full w-full"
+                                        src="https://images.unsplash.com/photo-1521119989659-a83eee488004?q=80&w=1323&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                        alt="">
+                              </div>
+                         </div>
+                         <div class="slide w-full h-screen flex items-center justify-center flex-shrink-0 relative">
+                              <div
+                                   class="img1 absolute z-[3] left-[12%] top-[76%] -translate-y-1/3  w-[10rem] h-[10rem] overflow-hidden rounded-full">
+                                   <img class="h-full w-full object-cover"
+                                        src="https://images.unsplash.com/photo-1581403341630-a6e0b9d2d257?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                        alt="">
+                              </div>
+                              <div
+                                   class="img1 absolute z-[3] left-1/2 top-0 -translate-y-1/2 -translate-x-1/2  w-[20rem] h-[20rem] overflow-hidden rounded-full">
+                                   <img class="h-full w-full object-cover"
+                                        src="https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                        alt="">
+                              </div>
+                              <div
+                                   class="image rounded-full overflow-hidden absolute top-1/2 right-0 -translate-y-1/2 translate-x-1/2 w-[17rem] h-[17rem]">
+                                   <img class="object-cover h-full w-full"
+                                        src="https://images.unsplash.com/photo-1521119989659-a83eee488004?q=80&w=1323&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                        alt="">
+                              </div>
+                              <div class="w-[60%] text-center font-['Footlight_MT'] relative ">
+                                   <h3
+                                        class="w-[37%] text-[1.3rem] font-regular leading-7 tracking-tight text-left absolute top-0 left-0 -translate-y-1/3 -translate-x-1/3 z-[4]">
+                                        We're on a mission to impact as many lives as possible and build a better
+                                        company while we do it. Here's our progress.</h3>
+                                   <h1 class="text-[11.5rem] font-semibold text-white">20.4M</h1>
+                                   <h3 class="text-[3rem] -mt-[3.5rem] leading-none tracking-tight">Real people -
+                                        Real
+                                        lives - We have built products and solution for.</h3>
+                              </div>
+                         </div>
+                         <div class="slide w-full h-screen flex-shrink-0 flex items-center justify-center relative">
+                              <img class="w-60 absolute top-0 left-1/2 -translate-x-1/2"
+                                   src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/65ea1ba6eb9637155282b42f_Lightning.png"
+                                   alt="">
+                              <div class="w-[60%] text-center font-['Footlight_MT'] relative ">
+                                   <h3
+                                        class="w-[40%] text-[1.3rem] font-regular leading-7 tracking-tight text-left absolute top-6 left-3 -translate-y-1/3 -translate-x-1/3 z-[4]">
+                                        Our team is global and diverse,<br>because our individual<br>experiences
+                                        make us
+                                        stronger.</h3>
+                                   <h1 class="text-[11.5rem] font-semibold text-white">49%</h1>
+                                   <h3 class="text-[2.7rem] -mt-[3.5rem] leading-none">Expert Woman in Tech.</h3>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+          </div>
+
+          <div data-color="black" class="team section font-['Footlight_MT'] py-20">
+               <h1 class="text-6xl text-center font-regular tracking-tight">Our Team</h1>
+               <div class="list w-full mt-10 px-10">
+                    <div class="listelem border-b-2 w-full py-[2rem] relative">
+                         <div class="relative  flex items-center justify-between z-[3] px-4">
+                              <div class="left flex gap-20">
+                                   <h3 class="text-5xl">01</h3>
+                                   <h1 class="text-5xl">Dr. Ric McCartney</h1>
+                              </div>
+                              <h3 class="text-3xl">CEO</h3>
+                         </div>
+                         <div
+                              class="picture bg-red-500 opacity-0 z-[4] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[10rem] h-[10rem] overflow-hidden rounded-full">
+                              <img class="w-full h-full object-cover"
+                                   src="https://images.unsplash.com/photo-1594672830234-ba4cfe1202dc?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                   alt="">
+                         </div>
+                         <div class="bluelayer absolute bottom-0 left-0 w-full h-[0%] z-[2] bg-blue-400"></div>
+                    </div>
+                    <div class="listelem border-b-2 w-full py-[2rem] relative">
+                         <div class="relative  flex items-center justify-between z-[3] px-4">
+                              <div class="left flex gap-20">
+                                   <h3 class="text-5xl">02</h3>
+                                   <h1 class="text-5xl">Dr. Ric McCartney</h1>
+                              </div>
+                              <h3 class="text-3xl">CEO</h3>
+                         </div>
+                         <div
+                              class="picture bg-red-500 opacity-0 z-[4] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[10rem] h-[10rem] overflow-hidden rounded-full">
+                              <img class="w-full h-full object-cover"
+                                   src="https://images.unsplash.com/photo-1715838854648-ea200803934a?q=80&w=1335&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                   alt="">
+                         </div>
+                         <div class="bluelayer absolute bottom-0 left-0 w-full h-[0%] z-[2] bg-blue-400"></div>
+                    </div>
+                    <div class="listelem border-b-2 w-full py-[2rem] relative">
+                         <div class="relative  flex items-center justify-between z-[3] px-4">
+                              <div class="left flex gap-20">
+                                   <h3 class="text-5xl">03</h3>
+                                   <h1 class="text-5xl">Dr. Ric McCartney</h1>
+                              </div>
+                              <h3 class="text-3xl">CEO</h3>
+                         </div>
+                         <div
+                              class="picture bg-red-500 opacity-0 z-[4] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[10rem] h-[10rem] overflow-hidden rounded-full">
+                              <img class="w-full h-full object-cover"
+                                   src="https://plus.unsplash.com/premium_photo-1672239496290-5061cfee7ebb?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                   alt="">
+                         </div>
+                         <div class="bluelayer absolute bottom-0 left-0 w-full h-[0%] z-[2] bg-blue-400"></div>
+                    </div>
+                    <div class="listelem border-b-2 w-full py-[2rem] relative">
+                         <div class="relative  flex items-center justify-between z-[3] px-4">
+                              <div class="left flex gap-20">
+                                   <h3 class="text-5xl">04</h3>
+                                   <h1 class="text-5xl">Dr. Ric McCartney</h1>
+                              </div>
+                              <h3 class="text-3xl">CEO</h3>
+                         </div>
+                         <div
+                              class="picture bg-red-500 opacity-0 z-[4] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[10rem] h-[10rem] overflow-hidden rounded-full">
+                              <img class="w-full h-full object-cover"
+                                   src="https://images.unsplash.com/photo-1618769122190-ee85526fd40b?q=80&w=1364&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                   alt="">
+                         </div>
+                         <div class="bluelayer absolute bottom-0 left-0 w-full h-[0%] z-[2] bg-blue-400"></div>
+                    </div>
+                    <div class="listelem border-b-2 w-full py-[2rem] relative">
+                         <div class="relative  flex items-center justify-between z-[3] px-4">
+                              <div class="left flex gap-20">
+                                   <h3 class="text-5xl">05</h3>
+                                   <h1 class="text-5xl">Dr. Ric McCartney</h1>
+                              </div>
+                              <h3 class="text-3xl">CEO</h3>
+                         </div>
+                         <div
+                              class="picture bg-red-500 opacity-0 z-[4] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[10rem] h-[10rem] overflow-hidden rounded-full">
+                              <img class="w-full h-full object-cover"
+                                   src="https://images.unsplash.com/photo-1586796676774-c93004ae009f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHBvcnRyYWl0JTIwbWFufGVufDB8fDB8fHww"
+                                   alt="">
+                         </div>
+                         <div class="bluelayer absolute bottom-0 left-0 w-full h-[0%] z-[2] bg-blue-400"></div>
+                    </div>
+               </div>
+          </div>
+
+          <div data-color="white" class="para section w-full h-[70vh] flex items-center justify-center mt-20">
+               <div class="text w-[70%] flex flex-col ">
+                    <h3 class="textParagraph text-[1.5rem] font-lightbold text-center leading-[2.8rem]">Working with the Significo team has been such a pleasure! We took on a significant project to rebuild our entire platform and the team approached the project with our best interests in mind. They continue to prioritize the end user experience and offer amazing expertise in all of the areas we lack internally. I would personally be lost without this team, their openness to feedback and desire to build the product like it is their own.</h3>
+                    <div class="pers flex flex-col  items-center justify-center mt-10 gap-5">
+                         <div class="image w-32 h-32 rounded-full overflow-hidden">
+                              <img class="w-full h-full object-cover"
+                                   src="https://plus.unsplash.com/premium_photo-1661293869113-4e4e5735b62d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cG9ydHJhaXQlMjB3b21hbnxlbnwwfHwwfHx8MA%3D%3D"
+                                   alt="">
+                         </div>
+                         <h1 class="text-3xl font-['Footlight_MT']">Miranda Eenst</h1>
+                         <h3 class="-mt-5">Product Manager @ HealthCheck360</h3>
+                    </div>
+               </div>
+          </div>
+
+          <div data-color="black" class="capsules section w-full flex items-start justify-between h-screen mt-60 px-20">
+               <div class="left w-1/4 h-full flex flex-col justify-between py-10">
+                    <h1 class="text-[1.4rem] font-['Times_New_Romen'] font-lightbold leading-[2.2rem]">Stay
+                         up-to-date
+                         on the latest heathcare innovations and thought leadership.</h1>
+                    <div class="heading ">
+                         <h1 class="text-6xl font-[Footlight_MT] mb-10">Explore Our Insights</h1>
+                         <div class="px-10 py-5 border-[1px] border-[--dcyan] w-fit">
+                              <div class="masker overflow-hidden">
+                                   <span class="inline-block">Our Solution</span>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+               <div class="right flex h-full items-center gap-15 font-['Footlight_MT']">
+                    <div class="capsule -rotate-[16deg] flex flex-col items-center px-9 py-6 rounded-full border-[1px]">
+                         <div class="w-60 h-60 bg-blue-400 rounded-full overflow-hidden">
+                              <img class="w-full h-full object-cover "
+                                   src="https://assets-global.website-files.com/659dbdfd5a080be8d3483190/65e61826ab9558e05e681a7f_Untitled%20design.png"
+                                   alt="">
+                         </div>
+                         <div class="text text-center mt-10">
+                              <h3 class="text-2xl font-lightbold">Equity in Tech: An</h3>
+                              <h3 class="text-2xl font-lightbold">International Woman's</h3>
+                              <h3 class="text-2xl font-lightbold">Day Conversion with</h3>
+                              <h3 class="text-2xl font-lightbold">Coroline Nieto</h3>
+                              <h3 class="text-2xl font-lightbold">Significo's CPO</h3>
+                         </div>
+                         <button
+                              class="bg-purple-500 text-white px-4 py-3 rounded-full text-[0.9rem] mt-8 mb-15">thought
+                              leadership</button>
+                    </div>
+                    <div
+                         class="capsule translate-y-40 -rotate-[16deg] flex flex-col items-center px-9 py-6 rounded-full border-[1px]">
+                         <button class="bg-purple-500 text-white px-4 py-3 rounded-full text-[0.9rem] mt-6">thought
+                              leadership</button>
+                         <div class="text text-center mt-10 mt-8 mb-15">
+                              <h3 class="text-2xl font-lightbold">Equity in Tech: An</h3>
+                              <h3 class="text-2xl font-lightbold">International Woman's</h3>
+                              <h3 class="text-2xl font-lightbold">Day Conversion with</h3>
+                              <h3 class="text-2xl font-lightbold">Coroline Nieto</h3>
+                              <h3 class="text-2xl font-lightbold">Significo's CPO</h3>
+                         </div>
+                         <div class="w-60 h-60 bg-blue-400 rounded-full overflow-hidden">
+                              <img class="w-full h-full object-cover "
+                                   src="https://assets-global.website-files.com/659dbdfd5a080be8d3483190/65e61826ab9558e05e681a7f_Untitled%20design.png"
+                                   alt="">
+                         </div>
+                    </div>
+               </div>
+          </div>
+
+          <!-- scriping link part -->
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"
+               integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA=="
+               crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js"
+               integrity="sha512-P2IDYZfqSwjcSjX0BKeNhwRUH8zRPGlgcWl5n6gBLzdi4Y5/0O4zaXrtO4K9TZK6Hn1BenYpKowuCavNandERg=="
+               crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+          <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@beta/bundled/locomotive-scroll.min.js"></script>
+          <script src="scrpt.js"></script>
+</body>
+
+</html>
